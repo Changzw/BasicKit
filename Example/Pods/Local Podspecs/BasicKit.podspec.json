@@ -1,0 +1,49 @@
+{
+  "name": "BasicKit",
+  "version": "0.1.0",
+  "summary": "A short description of BasicKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/czw/BasicKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "czw": "changzhongwei3@163.com"
+  },
+  "source": {
+    "git": "https://github.com/czw/BasicKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "Moya": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "rx",
+      "source_files": "BasicKit/Classes/Rx/**/*",
+      "dependencies": {
+        "RxSwift": [
+
+        ],
+        "Action": [
+
+        ],
+        "RxCocoa": [
+
+        ],
+        "RxRelay": [
+
+        ]
+      }
+    }
+  ]
+}
