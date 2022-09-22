@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
 
   s.dependency 'Moya'
   s.dependency 'SnapKit' 
-
+# s.default_subspec =
   s.subspec 'Rx' do |ss| 
     ss.source_files = 'BasicKit/Classes/Rx/*'
     ss.dependency 'RxSwift'
