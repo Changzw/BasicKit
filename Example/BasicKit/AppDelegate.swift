@@ -8,12 +8,14 @@
 
 import UIKit
 import BasicKit
+import RxSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
   var window: UIWindow?
   let kk = KK()
+  let bag = DisposeBag()
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.rootViewController = ViewController()
@@ -21,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     kk.$ss.bind {
       print($0)
     }
+    .disposed(by: bag)
     kk.ss = 100
     return true
   }

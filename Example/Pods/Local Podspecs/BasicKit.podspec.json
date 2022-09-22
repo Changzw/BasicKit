@@ -29,7 +29,7 @@
   },
   "subspecs": [
     {
-      "name": "rx",
+      "name": "Rx",
       "source_files": "BasicKit/Classes/Rx/*",
       "dependencies": {
         "RxSwift": [
@@ -45,6 +45,14 @@
 
         ]
       }
+    },
+    {
+      "name": "Tool",
+      "source_files": "BasicKit/Classes/Tool/*"
+    },
+    {
+      "name": "StackBuilder",
+      "source_files": "BasicKit/Classes/StackBuilder/*"
     }
   ],
   "swift_version": "5.0"
