@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicKit'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'A short description of BasicKit.'
 
 # This description is used to generate tags and improve search results.
@@ -39,15 +39,15 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
-  s.dependency 'Moya'
-  s.dependency 'SnapKit' 
+  s.dependency 'Moya', '15.0.0'
+  s.dependency 'SnapKit', '5.6.0'
 # s.default_subspec =
   s.subspec 'Rx' do |ss| 
     ss.source_files = 'BasicKit/Classes/Rx/*'
-    ss.dependency 'RxSwift'
-    ss.dependency 'Action'
-    ss.dependency 'RxCocoa'
-    ss.dependency 'RxRelay'
+    ss.dependency 'RxSwift', '6.5'
+    ss.dependency 'Action', '5.0.0'
+    ss.dependency 'RxCocoa', '6.5'
+    ss.dependency 'RxRelay', '6.5'
   end 
 
   s.subspec 'Tool' do |ss| 
