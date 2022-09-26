@@ -3,23 +3,23 @@ PODS:
     - RxCocoa (~> 6.0)
     - RxSwift (~> 6.0)
   - Alamofire (5.6.2)
-  - BasicKit (0.0.2):
-    - BasicKit/Rx (= 0.0.2)
-    - BasicKit/StackBuilder (= 0.0.2)
-    - BasicKit/Tool (= 0.0.2)
+  - BasicKit (0.0.3):
+    - BasicKit/Rx (= 0.0.3)
+    - BasicKit/StackBuilder (= 0.0.3)
+    - BasicKit/Tool (= 0.0.3)
     - Moya
     - SnapKit
-  - BasicKit/Rx (0.0.2):
+  - BasicKit/Rx (0.0.3):
     - Action
     - Moya
     - RxCocoa
     - RxRelay
     - RxSwift
     - SnapKit
-  - BasicKit/StackBuilder (0.0.2):
+  - BasicKit/StackBuilder (0.0.3):
     - Moya
     - SnapKit
-  - BasicKit/Tool (0.0.2):
+  - BasicKit/Tool (0.0.3):
     - Moya
     - SnapKit
   - Moya (15.0.0):
@@ -54,7 +54,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  BasicKit: 56d8169f357e94c1a00f148b8dd140f0dedf9516
+  BasicKit: 1f30055e39d01ab078386a73501739833350e5a5
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
